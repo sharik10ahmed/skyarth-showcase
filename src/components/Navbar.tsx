@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link, useRouterState } from "@tanstack/react-router";
 import { Menu, Phone, X } from "lucide-react";
 
-import logo from "@/assets/skyarth-logo.png.asset.json";
+import logo from "@/assets/skyarth-logo.png";
 import { ActionButton } from "@/components/ActionButton";
 import { useSite } from "@/store/SiteStore";
 
@@ -34,7 +34,7 @@ export function Navbar() {
       <div className="mx-auto grid max-w-[1400px] grid-cols-[minmax(0,1fr)_auto] items-center gap-4 px-5 py-3 lg:px-10 xl:flex xl:justify-between xl:gap-6">
         <Link to="/" className="flex min-w-0 items-center" aria-label={`${company.value.name} home`}>
           <img
-            src={logo.url}
+            src={logo}
             alt="SKYARTH uPVC Windows logo"
             width={220}
             height={60}

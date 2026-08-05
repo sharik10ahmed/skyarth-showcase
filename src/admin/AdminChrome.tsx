@@ -1,7 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { LogOut, Menu, X } from "lucide-react";
 
-import logo from "@/assets/skyarth-logo.png.asset.json";
+import logo from "@/assets/skyarth-logo.png";
 
 export type ModuleKey = string;
 
@@ -36,7 +36,7 @@ export function AdminSidebar({
       >
         <div className="flex items-center justify-between gap-3 border-b border-sidebar-border px-6 py-5">
           <Link to="/" className="rounded-xl bg-background px-3 py-2">
-            <img src={logo.url} alt="SKYARTH logo" width={160} height={44} className="h-7 w-auto object-contain" />
+            <img src={logo} alt="SKYARTH logo" width={160} height={44} className="h-7 w-auto object-contain" />
           </Link>
           <button type="button" onClick={onClose} aria-label="Close sidebar" className="text-sidebar-foreground lg:hidden">
             <X className="h-5 w-5" />

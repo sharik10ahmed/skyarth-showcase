@@ -1,7 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { Lock, Mail, MapPin, Phone } from "lucide-react";
 
-import logo from "@/assets/skyarth-logo.png.asset.json";
+import logo from "@/assets/skyarth-logo.png";
 import { useSite } from "@/store/SiteStore";
 
 export function Footer() {
@@ -21,7 +21,7 @@ export function Footer() {
       <div className="mx-auto grid max-w-[1400px] gap-12 px-5 py-16 lg:grid-cols-4 lg:px-10 lg:py-20">
         <div className="space-y-5">
           <div className="inline-flex rounded-2xl bg-background/95 px-4 py-3">
-            <img src={logo.url} alt="SKYARTH uPVC Windows logo" width={200} height={54} loading="lazy" className="h-9 w-auto object-contain" />
+            <img src={logo} alt="SKYARTH uPVC Windows logo" width={200} height={54} loading="lazy" className="h-9 w-auto object-contain" />
           </div>
           <p className="text-sm leading-relaxed text-primary-foreground/70">{footer.value.about}</p>
           <div className="flex flex-wrap gap-2">
