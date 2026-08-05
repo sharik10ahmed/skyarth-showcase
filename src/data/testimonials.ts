@@ -1,0 +1,8 @@
+export const testimonials = [
+  { id: "tm1", name: "Ar. Rohan Deshmukh", role: "Principal Architect", company: "Deshmukh & Associates", location: "Pune", rating: 5, initials: "RD", review: "Skyarth's shop drawings arrived before we asked for them. Installation on our villa project was laser-accurate and the sightlines matched the renders exactly." },
+  { id: "tm2", name: "Priya Nair", role: "Homeowner", company: "Aurelia Villa", location: "Baner, Pune", rating: 5, initials: "PN", review: "The lift & slide door is the centrepiece of our living room. Traffic noise simply disappeared and the panel moves with one finger." },
+  { id: "tm3", name: "Sandeep Kulkarni", role: "Project Head", company: "Meridian Developers", location: "Kharadi, Pune", rating: 5, initials: "SK", review: "412 flats delivered without a single schedule slip. Their site coordination team is genuinely the best we have worked with." },
+  { id: "tm4", name: "Neha Agarwal", role: "Facility Manager", company: "Axis Business Centre", location: "Viman Nagar, Pune", rating: 4, initials: "NA", review: "Two years on, zero maintenance calls beyond routine AMC visits. Cooling costs dropped noticeably after the retrofit." },
+  { id: "tm5", name: "Imran Shaikh", role: "Director", company: "Northline Industries", location: "Chakan, Pune", rating: 5, initials: "IS", review: "Industrial-scale glazing handled with the same care as a luxury home. Quality documentation was thorough." },
+  { id: "tm6", name: "Meera Joshi", role: "Interior Designer", company: "Studio Terra", location: "Koregaon Park, Pune", rating: 5, initials: "MJ", review: "Their laminate finish range let me match the joinery perfectly. Clients keep asking who supplied the windows." },
+];
