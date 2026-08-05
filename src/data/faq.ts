@@ -1,0 +1,10 @@
+export const faqs = [
+  { id: "f1", category: "Warranty", question: "What warranty does Skyarth provide?", answer: "Every installation carries a 10-year warranty on uPVC profiles against warping, discolouration and cracking, plus a 2-year warranty on hardware and sealed glazing units when maintained as advised." },
+  { id: "f2", category: "Pricing", question: "How is pricing calculated?", answer: "Pricing is per square foot and depends on the profile series, glazing specification, hardware grade and opening geometry. We share an itemised quotation within 48 hours of site measurement — with no hidden fabrication or transport charges." },
+  { id: "f3", category: "Installation", question: "How long does installation take?", answer: "A typical 3BHK apartment is completed in 2–3 working days after manufacturing. Villas and commercial projects are scheduled in phases so occupied areas stay usable throughout." },
+  { id: "f4", category: "Maintenance", question: "How do I maintain uPVC windows?", answer: "A mild soap-and-water wipe every few months is sufficient. Hardware benefits from light lubrication annually — covered automatically under our AMC plans." },
+  { id: "f5", category: "Customization", question: "Can you match a specific colour or geometry?", answer: "Yes. We offer 50+ laminate and RAL finishes, plus arched, bay, trapezoidal and corner geometries engineered directly from architectural drawings." },
+  { id: "f6", category: "Delivery", question: "What are your typical lead times?", answer: "Standard residential orders ship in 2–3 weeks from design approval. Custom façade and large project orders range from 3–6 weeks depending on scope." },
+  { id: "f7", category: "Installation", question: "Do you handle existing window removal?", answer: "Yes. Dismantling, debris removal and finishing of the opening are all included in our installation scope." },
+  { id: "f8", category: "Pricing", question: "Is there a minimum order value?", answer: "There is no minimum for the Pune metropolitan region. Outside Pune, we consolidate orders into project batches for efficient logistics." },
+];
