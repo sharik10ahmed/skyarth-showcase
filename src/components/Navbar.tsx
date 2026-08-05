@@ -36,9 +36,9 @@ export function Navbar() {
           <img
             src={logo}
             alt="SKYARTH uPVC Windows logo"
-            width={220}
-            height={60}
-            className="h-9 w-auto object-contain sm:h-11"
+            width={240}
+            height={68}
+            className="h-11 w-auto object-contain sm:h-14 md:h-16 transition-transform duration-300 hover:scale-105"
           />
         </Link>
 

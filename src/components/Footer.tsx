@@ -20,8 +20,8 @@ export function Footer() {
     <footer className="gradient-navy text-primary-foreground">
       <div className="mx-auto grid max-w-[1400px] gap-12 px-5 py-16 lg:grid-cols-4 lg:px-10 lg:py-20">
         <div className="space-y-5">
-          <div className="inline-flex rounded-2xl bg-background/95 px-4 py-3">
-            <img src={logo} alt="SKYARTH uPVC Windows logo" width={200} height={54} loading="lazy" className="h-9 w-auto object-contain" />
+          <div className="inline-flex rounded-2xl bg-background/95 px-5 py-3.5 shadow-md">
+            <img src={logo} alt="SKYARTH uPVC Windows logo" width={240} height={68} loading="lazy" className="h-12 w-auto object-contain sm:h-14 md:h-16" />
           </div>
           <p className="text-sm leading-relaxed text-primary-foreground/70">{footer.value.about}</p>
           <div className="flex flex-wrap gap-2">

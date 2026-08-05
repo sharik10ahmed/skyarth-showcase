@@ -41,8 +41,8 @@ function AdminLogin() {
   return (
     <div className="grid min-h-screen lg:grid-cols-2">
       <div className="relative hidden gradient-navy p-14 lg:flex lg:flex-col lg:justify-between">
-        <Link to="/" className="inline-flex w-fit rounded-2xl bg-background px-5 py-3">
-          <img src={logo} alt="SKYARTH logo" width={220} height={60} className="h-10 w-auto object-contain" />
+        <Link to="/" className="inline-flex w-fit rounded-2xl bg-background px-6 py-4 shadow-md">
+          <img src={logo} alt="SKYARTH logo" width={260} height={75} className="h-14 w-auto object-contain lg:h-16" />
         </Link>
         <div>
           <h1 className="max-w-md text-4xl font-bold leading-tight text-primary-foreground">
@@ -60,7 +60,7 @@ function AdminLogin() {
       <div className="grid place-items-center bg-background px-5 py-16">
         <form onSubmit={submit} className="w-full max-w-md rounded-[2rem] border border-border bg-card p-9 shadow-luxe">
           <Link to="/" className="mb-8 inline-flex lg:hidden">
-            <img src={logo} alt="SKYARTH logo" width={200} height={54} className="h-9 w-auto object-contain" />
+            <img src={logo} alt="SKYARTH logo" width={220} height={60} className="h-12 w-auto object-contain" />
           </Link>
           <h2 className="text-2xl font-bold text-navy-deep">Admin Login</h2>
           <p className="mt-2 text-sm text-muted-foreground">Sign in to manage website content.</p>

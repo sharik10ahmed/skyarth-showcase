@@ -35,8 +35,8 @@ export function AdminSidebar({
         }`}
       >
         <div className="flex items-center justify-between gap-3 border-b border-sidebar-border px-6 py-5">
-          <Link to="/" className="rounded-xl bg-background px-3 py-2">
-            <img src={logo} alt="SKYARTH logo" width={160} height={44} className="h-7 w-auto object-contain" />
+          <Link to="/" className="rounded-xl bg-background px-4 py-2.5 shadow-sm">
+            <img src={logo} alt="SKYARTH logo" width={180} height={52} className="h-9 w-auto object-contain sm:h-11" />
           </Link>
           <button type="button" onClick={onClose} aria-label="Close sidebar" className="text-sidebar-foreground lg:hidden">
             <X className="h-5 w-5" />
