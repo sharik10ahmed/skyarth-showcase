@@ -5,7 +5,7 @@ import { PageHeader, SiteLayout } from "@/layouts/SiteLayout";
 import { ProductCard } from "@/components/ProductCard";
 import { useSite } from "@/store/SiteStore";
 
-export const Route = createFileRoute("/products")({
+export const Route = createFileRoute("/products/")({
   head: () => ({
     meta: [
       { title: "uPVC Products | Windows, Doors & Sliding Systems — SKYARTH" },
