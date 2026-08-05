@@ -45,9 +45,6 @@ function useRecord<T extends object>(initial: T) {
   return useMemo(() => ({ value, update: (patch: Partial<T>) => setValue((p) => ({ ...p, ...patch })) }), [value]);
 }
 
-function createStore() {
-  return null;
-}
 
 export type SiteStore = ReturnType<typeof useSiteStoreValue>;
 
