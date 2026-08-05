@@ -141,7 +141,7 @@ function Contact() {
 const inputClass =
   "w-full rounded-2xl border border-input bg-background px-5 py-3 text-sm text-foreground outline-none transition-all duration-300 placeholder:text-muted-foreground focus:border-gold focus:ring-2 focus:ring-gold/25";
 
-function Field({ label, error, children }: { label: string; error?: string; children: React.ReactNode }) {
+function Field({ label, error, children }: { label: string; error?: string | undefined; children: React.ReactNode }) {
   return (
     <label className="block">
       <span className="mb-2 block text-xs font-semibold uppercase tracking-[0.14em] text-navy">{label}</span>
