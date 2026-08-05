@@ -31,7 +31,7 @@ export function Navbar() {
           : "border-transparent bg-background/70 backdrop-blur-md"
       }`}
     >
-      <div className="mx-auto grid max-w-[1400px] grid-cols-[minmax(0,1fr)_auto] items-center gap-4 px-5 py-3 lg:px-10">
+      <div className="mx-auto grid max-w-[1400px] grid-cols-[minmax(0,1fr)_auto] items-center gap-4 px-5 py-3 lg:px-10 xl:flex xl:justify-between xl:gap-6">
         <Link to="/" className="flex min-w-0 items-center" aria-label={`${company.value.name} home`}>
           <img
             src={logo.url}
